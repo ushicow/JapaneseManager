@@ -41,7 +41,7 @@
 　　CDevs (フォルダ)  
 　　　JM.CDev              日本語表示 ON/OFF CDev  
 　　Fonts (フォルダ)  
-   　JMGothic.08          フォントストライクホルダ  
+　　　JMGothic.08          フォントストライクホルダ  
 　　　JMGothic.08.en       半角フォント (おまけ)  
 　　Japanese (フォルダ)  
 　　　JMGothic.08L0        JM Gothic 第 0 水準フォントイメージ  
