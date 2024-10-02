@@ -37,16 +37,16 @@
   
   * System (フォルダ)
     * System.Setup (フォルダ)  
-　　    * JM                   <JM 本体>    
-　　CDevs (フォルダ)  
-　　　JM.CDev              日本語表示 ON/OFF CDev  
-　　Fonts (フォルダ)  
-　　　JMGothic.08          フォントストライクホルダ  
-　　　JMGothic.08.en       半角フォント (おまけ)  
-　　Japanese (フォルダ)  
-　　　JMGothic.08L0        JM Gothic 第 0 水準フォントイメージ  
-　　　JMGothic.08L1        JM Gothic 第 1 水準フォントイメージ  
-　Icons (フォルダ)  
-　　JM.Icons             JM アイコン  
+　　  * JM                   <JM 本体>    
+　　 * CDevs (フォルダ)  
+　　　* JM.CDev              <日本語表示 ON/OFF CDev>
+    * Fonts (フォルダ)
+     * JMGothic.08          <フォントストライクホルダ>
+     * JMGothic.08.en       <半角フォント (おまけ)>
+    * Japanese (フォルダ)
+     * JMGothic.08L0        <JM Gothic 第 0 水準フォントイメージ>
+     * JMGothic.08L1        <JM Gothic 第 1 水準フォントイメージ>  
+ * Icons (フォルダ)  
+    * JM.Icons             <JM アイコン>  
 
   質問等は Facebook FAPPLE2 グループまでおねがいします。
