@@ -40,7 +40,7 @@
 　　　JM                   JM 本体  
 　　CDevs (フォルダ)  
 　　　JM.CDev              日本語表示 ON/OFF CDev  
-   Fonts (フォルダ)  
+　　Fonts (フォルダ)  
    　JMGothic.08          フォントストライクホルダ  
 　　　JMGothic.08.en       半角フォント (おまけ)  
 　　Japanese (フォルダ)  
