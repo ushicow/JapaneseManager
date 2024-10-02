@@ -37,7 +37,7 @@
   
 　System (フォルダ)  
 　　System.Setup (フォルダ)  
-　　　JM                   JM 本体  
+　　　"JM                   JM 本体"  
 　　CDevs (フォルダ)  
 　　　JM.CDev              日本語表示 ON/OFF CDev  
 　　Fonts (フォルダ)  
