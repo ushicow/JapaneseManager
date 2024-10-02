@@ -32,20 +32,20 @@
   * JM Gothic フォントをオリジナルデザインのものに置き換えた.  
   * JMT コード $A0xx に縦書き用フォントを割り当てた.  
   
-＊ ファイル構成  
+* ファイル構成  
   JM 第 1.5 版は次のファイルから構成されます。  
   
   * System (フォルダ)
     * System.Setup (フォルダ)  
-　　  * JM                   <JM 本体>    
-　　 * CDevs (フォルダ)  
-　　　* JM.CDev              <日本語表示 ON/OFF CDev>
+      * JM                   <JM 本体>    
+　　 * CDevs (フォルダ)
+      * JM.CDev              <日本語表示 ON/OFF CDev>
     * Fonts (フォルダ)
-     * JMGothic.08          <フォントストライクホルダ>
-     * JMGothic.08.en       <半角フォント (おまけ)>
+      * JMGothic.08          <フォントストライクホルダ>
+      * JMGothic.08.en       <半角フォント (おまけ)>
     * Japanese (フォルダ)
-     * JMGothic.08L0        <JM Gothic 第 0 水準フォントイメージ>
-     * JMGothic.08L1        <JM Gothic 第 1 水準フォントイメージ>  
+      * JMGothic.08L0        <JM Gothic 第 0 水準フォントイメージ>
+      * JMGothic.08L1        <JM Gothic 第 1 水準フォントイメージ>  
  * Icons (フォルダ)  
     * JM.Icons             <JM アイコン>  
 
