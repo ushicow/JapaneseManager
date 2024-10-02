@@ -35,9 +35,9 @@
 ＊ ファイル構成  
   JM 第 1.5 版は次のファイルから構成されます。  
   
-　System (フォルダ)  
-　　System.Setup (フォルダ)  
-　　　`JM                   JM 本体`  
+  * System (フォルダ)
+    * System.Setup (フォルダ)  
+　　    * <pre>JM                   JM 本体</pre>  
 　　CDevs (フォルダ)  
 　　　JM.CDev              日本語表示 ON/OFF CDev  
 　　Fonts (フォルダ)  
