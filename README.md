@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+## Japanese Manager Version 1.5 Release Note  Mar. 5,1993　(2024.10.2 修正)
 
-You can use the [editor on GitHub](https://github.com/ushicow/JapaneseManager/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  Japanese Manager (JM) は Apple IIGS のデスクトップ環境で日本語テキストを
+表示できるようにする Init です.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  JM を動かすには 1.5M バイト以上の RAM と System 5.0.4 以上の OS が必要で
+す.
 
-### Markdown
+  本バージョンはフリーウェアです.  無料で第 3 者にコピーを配布することがで
+きます.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* JM1.0b3 版からの主な変更点
+  o JMT コードを変更し第 2 バイトが ASCII の記号にあたらないようにした.
+  o キャラクタイメージを 16 x 8 ドットにした.
+  o JIS X0201 片仮名互換文字と GS 拡張キャラクタ互換文字を表示できるように
+    した.
+  o メニュー用にチェックマークとオープンアップルマークを表示できるようにし
+    た.
+  o Toolbox 化により 各種サービスルーチンを サポートした.
+  o アクティブ/インアクティブを切り換える CDev をつけた.
+  o アイコンのデザインを変更した.
 
-```markdown
-Syntax highlighted code block
+* JM1.1 版からの主な変更点
+  o JMT -> シフト JIS 変換のバグをとった.
+  o アクティブ/インアクティブの切り替えに伴う暴走を防いだ.
+  o おまけとして JM Gothic (en) という 8 x 8 ドットの JIS X0201 互換フォン
+    トをつけた.
 
-# Header 1
-## Header 2
-### Header 3
+* JM1.2 版からの主な変更点
+  o 大部分を C 言語で書き直した.
+  o 1 バイト文字を半角で表示するようにした.
 
-- Bulleted
-- List
+* JM1.3 版からの主な変更点
+  o JMT -> シフト JIS 変換のバグをとった.
+  o JM Gothic がバンクをまたいでロードされたときの不正表示を防いだ.
+  o JM Gothic のベースラインのずれを修正した.
+  o JM Gothic (en) の高さとベースラインを修正した.
 
-1. Numbered
-2. List
+＊JM1.4 版からの主な変更点
+  o JM Gothic がバンクをまたいでロードされたときの不正表示を防いだ.
+  o JM Gothic フォントをオリジナルデザインのものに置き換えた.
+  o JMT コード $A0xx に縦書き用フォントを割り当てた.
 
-**Bold** and _Italic_ and `Code` text
+* ファイル構成
+  JM 第 1.5 版は次のファイルから構成されます。
 
-[Link](url) and ![Image](src)
-```
+  System (フォルダ)
+      System.Setup (フォルダ)
+　　　    JM                   JM 本体
+　　　CDevs (フォルダ)
+　　　　　JM.CDev              日本語表示 ON/OFF CDev
+　　　Fonts (フォルダ)
+　　　　　JMGothic.08          フォントストライクホルダ
+　　　　　JMGothic.08.en       半角フォント (おまけ)
+　　　Japanese (フォルダ)
+　　　　　JMGothic.08L0        JM Gothic 第 0 水準フォントイメージ
+　　　　　JMGothic.08L1        JM Gothic 第 1 水準フォントイメージ
+  Icons (フォルダ)
+  　　　　JM.Icons             JM アイコン
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ushicow/JapaneseManager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  質問等は Facebook FAPPLE2 グループまでおねがいします。
